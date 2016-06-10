@@ -1,0 +1,71 @@
+#content {
+  margin: 20px;
+  width: 350px;
+  display: inline-block;
+  float: left; }
+  #content #search-field {
+    background: #c1c2c2;
+    padding: 20px; }
+    #content #search-field #bookinput {
+      width: 300px;
+      height: 50px;
+      margin: 5px; }
+    #content #search-field #search-book {
+      width: 305px;
+      height: 50px;
+      margin: 5px;
+      background: #58b4db; }
+  #content #book-search .book .info {
+    width: 250px;
+    float: left; }
+  #content #book-search .book .add {
+    width: 50px;
+    height: 50px;
+    background: #58b4db;
+    margin: 10px;
+    float: left; }
+
+#middle {
+  margin: 20px;
+  float: left;
+  width: 350px; }
+  #middle #books-to-read {
+    background: #c1c2c2; }
+    #middle #books-to-read .my-book {
+      display: table; }
+      #middle #books-to-read .my-book .my-info {
+        display: table-cell;
+        width: 250px;
+        padding: 0;
+        margin: 0; }
+        #middle #books-to-read .my-book .my-info h3, #middle #books-to-read .my-book .my-info p {
+          padding: 0;
+          margin: 0; }
+      #middle #books-to-read .my-book .my-add {
+        display: table-cell;
+        width: 50px;
+        height: 50px;
+        background: #58b4db;
+        margin: 10px; }
+      #middle #books-to-read .my-book .flickr {
+        width: 100px;
+        height: 100px;
+        display: table-cell; }
+
+#right {
+  margin: 20px;
+  float: left;
+  width: 350px; }
+  #right #books-already-read {
+    background: #c1c2c2; }
+    #right #books-already-read .my-book {
+      display: table; }
+      #right #books-already-read .my-book .my-info {
+        padding: 0;
+        display: table-cell; }
+      #right #books-already-read .my-book .flickr {
+        width: 100px;
+        height: 100px;
+        display: table-cell; }
+
+/*# sourceMappingURL=style.css.map */
